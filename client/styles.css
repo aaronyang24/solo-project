@@ -1,0 +1,37 @@
+body{
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+  background-color: rgb(218, 218, 218);
+}
+
+h6 {
+  margin-top: 0;
+}
+
+#header {
+  color: rgb(32, 114, 161);
+  margin-bottom: 0;
+}
+
+.button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  color: rgb(32, 102, 158);
+}
+
+.delete{
+  color: rgb(216, 104, 84);
+}
+
+.notes {
+  position: relative;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 8px black;
+  float: left;
+  background-color: rgb(226, 228, 102);
+}
