@@ -4,8 +4,4 @@ import App from './components/App';
 
 import styles from './styles.css';
 
-
-render(
-  <App />,
-  document.getElementById('root')
-);
+render(<App />, document.getElementById('root'));

@@ -1,4 +1,4 @@
-body{
+body {
   font-family: monospace;
   font-size: 2em;
   text-align: center;
@@ -21,7 +21,7 @@ h6 {
   color: rgb(32, 102, 158);
 }
 
-.delete{
+.delete {
   color: rgb(216, 104, 84);
 }
 

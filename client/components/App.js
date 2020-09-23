@@ -1,17 +1,17 @@
-import React, {Component} from 'react';
-import MainContainer from './MainContainer'
+import React, { Component } from 'react';
+import MainContainer from './MainContainer';
 
 class App extends Component {
   constructor(props) {
     super(props);
   }
-  render(){
+  render() {
     return (
       <div>
-        <MainContainer/>
+        <MainContainer />
       </div>
-    )
+    );
   }
 }
 
-export default App; 
+export default App;

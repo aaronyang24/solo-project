@@ -1,12 +1,12 @@
 const express = require('express');
-const app = express();
 const path = require('path');
-const bodyParser = require('body-parser');
+
+const app = express();
 const PORT = 3000;
 
 // const notesController = require('./controllers/notesController')
 
-// parse urlencoded content 
+// parse urlencoded content
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -22,12 +22,12 @@ app.get('/', (req, res) => {
 //   res.send('This is my new message')
 // })
 
-// app.post('/note', 
+// app.post('/note',
 //   notesController.addNote,
 //   (req, res) => res.status(200).json({})
 // )
 // catch all route handler
 // app.use((req, res) => res.sendStatus(404));
 
-app.listen(PORT,() => console.log(`Listening on port ${PORT}...`));
-
+// eslint-disable-next-line no-console
+app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
